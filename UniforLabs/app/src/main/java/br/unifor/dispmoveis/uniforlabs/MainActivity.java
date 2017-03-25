@@ -1,32 +1,57 @@
-package br.unifor.dispmoveis.uniforlabs;
+package com.example.leony.myapplication;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-
-    private Button btnD;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnD = (Button) findViewById(R.id.btnD);
-        btnD.setOnClickListener(this);
-    }
+        final Button blD = (Button) findViewById(R.id.btnBlocoD);
+        blD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.frame_container, new BlocoD_salasFragment())
+                        .commit();
+            }
+        });
+        final Button blM = (Button) findViewById(R.id.btnBlocoM);
+        blM.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.frame_container, new BlocoM_salasFragment())
+                        .commit();
+            }
+        });
+        Button f1 = (Button) findViewById(R.id.btnFrag1);
+        Button f2 = (Button) findViewById(R.id.btnFrag2);
+        f1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.frame_container, new NovoFragment())
+                        .commit();
+            }
+        });
+        f2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.frame_container, new SegundoFragment()).commit();
+            }
+        });
 
-    @Override
-    public void onClick(View v) {
-        switch(v.getId()){
-
-            case R.id.btnD:
-                Intent it = new Intent(this, SituacaoSala.class);
-                startActivity(it);
-        }
 
     }
 }

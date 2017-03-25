@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leony.myapplication.SalasLabsFragment"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:text="D"
+        android:id="@+id/btnLabsD"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"
+        android:textAlignment="viewStart" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55sp"
+        android:text="J"
+        android:id="@+id/btnLabsJ"
+        android:textSize="30dp"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/btnLabsD"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnLabsD"
+        android:layout_alignEnd="@+id/btnLabsD" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55sp"
+        android:text="K"
+        android:id="@+id/btnLabsK"
+        android:textSize="30dp"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/btnLabsJ"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnLabsJ"
+        android:layout_alignEnd="@+id/btnLabsJ" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55sp"
+        android:text="M"
+        android:id="@+id/btnLabsM"
+        android:textSize="30dp"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/btnLabsK"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnLabsK"
+        android:layout_alignEnd="@+id/btnLabsK" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55sp"
+        android:text="T"
+        android:id="@+id/btnLabsT"
+        android:textSize="30dp"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/btnLabsM"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnLabsM"
+        android:layout_alignEnd="@+id/btnLabsM" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55sp"
+        android:text="Z"
+        android:id="@+id/btnLabsZ"
+        android:textSize="30dp"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/btnLabsT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnLabsT"
+        android:layout_alignEnd="@+id/btnLabsT" />
+</RelativeLayout>

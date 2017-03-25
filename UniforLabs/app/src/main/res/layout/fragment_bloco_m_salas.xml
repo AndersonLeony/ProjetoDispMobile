@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leony.myapplication.BlocoD_salasFragment"
+    android:id="@+id/frag_blocoD">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="M 33"
+            android:id="@+id/textView2"
+            android:background="@drawable/layout_border"
+            android:textSize="19dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Em Aula   >"
+                android:id="@+id/textView3"
+                android:background="@drawable/layout_border"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="114dp"
+            android:layout_height="34dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="M 35"
+            android:id="@+id/textView4"
+            android:background="@drawable/layout_border"
+            android:textSize="19dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Próx. Aula  >"
+                android:id="@+id/textView5"
+                android:background="@drawable/layout_border"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

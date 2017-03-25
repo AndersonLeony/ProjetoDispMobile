@@ -6,4 +6,114 @@
     android:layout_height="match_parent"
     tools:context="br.unifor.dispmoveis.uniforlabs.SituacaoSala">
 
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Voltar"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <TextView
+        android:id="@+id/txtInfo12"
+        android:layout_width="68dp"
+        android:layout_height="32dp"
+        android:text="D12"
+        android:textSize="50px"
+        tools:layout_editor_absoluteY="57dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/txtSala12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Proxima aula"
+        android:textSize="25px"
+        tools:layout_editor_absoluteY="89dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Switch
+        android:id="@+id/swtAula12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="57dp"
+        tools:layout_editor_absoluteX="68dp" />
+
+    <TextView
+        android:id="@+id/txtSala14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proxima aula"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/txtInfo14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D14"
+        android:textSize="50px"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Switch
+        android:id="@+id/swtAula14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/txtSala24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D24"
+        android:textSize="50px"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:id="@+id/txtInfo24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proxima aula"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Switch
+        android:id="@+id/swtAula24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:id="@+id/txtSala26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D26"
+        android:textSize="50px"
+        tools:layout_editor_absoluteY="270dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <TextView
+        android:id="@+id/txtInfo26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proxima aula"
+        tools:layout_editor_absoluteY="300dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Switch
+        android:id="@+id/swtAula26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="270dp" />
+
 </android.support.constraint.ConstraintLayout>

@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btnD:
                 Intent it = new Intent(this, SituacaoSala.class);
+                startActivity(it);
         }
 
     }
